@@ -1,8 +1,10 @@
+import Temp from "../3.2/Temperatur"
 import express from "express"
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
+app.get( "/", (req, res) => {
+
     res.send('Hello World!')
 })
 

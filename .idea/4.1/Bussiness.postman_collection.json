@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "3b3b6ca5-ee73-4c5f-a7f9-18d8af27a411",
+		"name": "Bussiness",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43562657"
+	},
+	"item": [
+		{
+			"name": "https://picsum.photos/id/237/200/300",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://picsum.photos/id/237/200/300",
+					"protocol": "https",
+					"host": [
+						"picsum",
+						"photos"
+					],
+					"path": [
+						"id",
+						"237",
+						"200",
+						"300"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.zli.ch",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.zli.ch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"zli",
+						"ch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.zli.ch/hallo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.zli.ch/hallo",
+					"protocol": "https",
+					"host": [
+						"www",
+						"zli",
+						"ch"
+					],
+					"path": [
+						"hallo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/me",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/me",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/pokemon/pikachu",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.chucknorris.io/jokes/random",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.chucknorris.io/jokes/random",
+					"protocol": "https",
+					"host": [
+						"api",
+						"chucknorris",
+						"io"
+					],
+					"path": [
+						"jokes",
+						"random"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
