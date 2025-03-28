@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "learnyounode": "^4.2.2"
+    "express": "^4.21.2",
+    "learnyounode": "^3.2.0"
   }
 }
